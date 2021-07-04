@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>RevealTemplate</title>
+	<meta name="description" content="A template for making offline reveal.js presentations">
+	<meta name="author" content="Luca Schlecker">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="node_modules/reveal.js/dist/reset.css">
+	<link rel="stylesheet" href="node_modules/reveal.js/dist/reveal.css">
+	<link rel="stylesheet" href="node_modules/reveal.js/dist/theme/white.css" id="theme">
+
+	<link rel="stylesheet" href="node_modules/highlight.js/styles/base16/one-light.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1>Slide 1</h1>
+			</section>
+			<section>
+				<h1>Slide 2</h1>
+			</section>
+		</div>
+	</div>
+
+	<script src="node_modules/reveal.js/dist/reveal.js"></script>
+	<script src="node_modules/reveal.js/plugin/zoom/zoom.js"></script>
+	<script src="node_modules/reveal.js/plugin/notes/notes.js"></script>
+	<script src="node_modules/reveal.js/plugin/search/search.js"></script>
+	<script src="node_modules/reveal.js/plugin/markdown/markdown.js"></script>
+	<script src="node_modules/reveal.js/plugin/highlight/highlight.js"></script>
+	<script src="node_modules/reveal.js/plugin/math/math.js"></script>
+	<script>
+		Reveal.initialize({
+			controls: false,
+			progress: true,
+			center: true,
+			hash: true,
+
+			math: {
+				mathjax: 'node_modules/mathjax/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+			},
+
+			plugins: [
+				RevealZoom,
+				RevealNotes,
+				RevealSearch,
+				RevealMarkdown,
+				RevealHighlight,
+				RevealMath
+			]
+		});
+	</script>
+</body>
+
+</html>

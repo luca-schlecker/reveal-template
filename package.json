@@ -1,0 +1,21 @@
+{
+  "name": "reveal-template",
+  "version": "1.0.0",
+  "description": "A template for making offline reveal.js presentations",
+  "keywords": [
+    "reveal.js",
+    "presentation",
+    "template"
+  ],
+  "homepage": "https://github.com/luca-schlecker/reveal-template#readme",
+  "author": {
+    "name": "Luca Schlecker",
+    "url": "https://github.com/luca-schlecker"
+  },
+  "repository": "github:luca-schlecker/reveal-template",
+  "dependencies": {
+    "highlight.js": "^11.0.1",
+    "mathjax": "^2.7.8",
+    "reveal.js": "^4.1.3"
+  }
+}
